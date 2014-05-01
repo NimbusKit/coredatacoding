@@ -90,8 +90,7 @@ Version History
 
 Bi-directional transforms between `id<NSCoding>` and `NSManagedObject*`.
 
-- New classes, CDCEncoder and CDCDecoder to simplify the configuration of
-  the en/de-coders.
+- New classes, CDCEncoder and CDCDecoder to simplify the configuration of the en/de-coders.
 - Plenty of documentation now available at http://v2.nimbuskit.info/.
 
 1.0.0 on April 19, 2014
@@ -109,4 +108,4 @@ Core Data Coding was built by [Jeff Verkoeyen](http://jeffverkoeyen.com/) ([feat
 License
 =======
 
-NimbusKit+'s Core Data Coding Data is licensed under the [NimbusKit+ Commercial Development license](http://nimbuskit.com/pluslicense).
+Core Data Coding is licensed under the [NimbusKit+ Commercial Development license](http://nimbuskit.com/pluslicense).
