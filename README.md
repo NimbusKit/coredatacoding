@@ -85,6 +85,13 @@ Must be compiled with the iOS 6 SDK or above. You must link to the Core Data fra
 Version History
 ===============
 
+2.0.1 on May 2, 2014
+-----
+
+Minor internal cleanup.
+
+- Replaced legacy CDCSetValueForKeyWithVerb with simpler equivalent.
+
 2.0.0 on May 1, 2014
 -----
 
