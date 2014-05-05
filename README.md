@@ -85,6 +85,16 @@ Must be compiled with the iOS 6 SDK or above. You must link to the Core Data fra
 Version History
 ===============
 
+2.0.2 on May 5, 2014
+-----
+
+Misc bug fixes.
+
+- [bug] Codable tagged relationships will no longer be overwritten when an object is decoded that did not include that relationship due to lack of matching tags.
+- [bug] If a codable object's primary key value is null then a new entity will be now created.
+- [crashfix] Nil relationships are now properly en/decoded (previously nil codable relationships were causing a crash).
+- [bug] Managed object contexts created with NSConfinementConcurrencyType may now be used.
+
 2.0.1 on May 2, 2014
 -----
 
